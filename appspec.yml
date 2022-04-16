@@ -4,6 +4,7 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/AWSProject
+    overwrite: true
 
 hooks:
   ApplicationStop:
