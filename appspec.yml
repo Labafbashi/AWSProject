@@ -5,14 +5,18 @@ files:
   - source: /
     destination: /home/ubuntu/AWSProject
     overwrite: true
+    runas: root
 
 hooks:
   ApplicationStop:
     - location: Scripts/ApplicationStop.sh
       timeout: 180
+      runas: root
   BeforeInstall:
     - location: Scripts/BeforeInstall.sh
       timeout: 180
+      runas: root
   ApplicationStart:
     - location: Scripts/ApplicationStart.sh
       timeout: 180
+      runas: root
