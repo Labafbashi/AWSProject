@@ -2,5 +2,5 @@
 
 `cd /home/ubuntu/AWSProject`
 source venv/bin/activate
-sudo pip install flask
-sudo python3 hello.py > /dev/null 2>&1 &
+pip install flask
+python3 hello.py > /dev/null 2>&1 &
