@@ -8,13 +8,13 @@ files:
 hooks:
   ApplicationStop:
     - location: Scripts/ApplicationStop.sh
-      timeout: 300
+      timeout: 180
       runas: root
   BeforeInstall:
     - location: Scripts/BeforeInstall.sh
-      timeout: 300
+      timeout: 180
       runas: root
   ApplicationStart:
     - location: Scripts/ApplicationStart.sh
-      timeout: 300
+      timeout: 180
       runas: root

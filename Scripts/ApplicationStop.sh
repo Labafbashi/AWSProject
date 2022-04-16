@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 if [[ $(ps -ef | grep python3|grep -v grep) ]]; then
    `sudo pkill python3`

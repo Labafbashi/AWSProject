@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 mkdir -p /home/ubuntu/AWSProject
 cd /home/ubuntu

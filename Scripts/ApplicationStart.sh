@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 `cd /home/ubuntu/AWSProject`
 source venv/bin/activate
