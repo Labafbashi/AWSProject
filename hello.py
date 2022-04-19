@@ -7,6 +7,7 @@ def hello_world():
     out = "<p>Hello, World!!!!! Here is a Flask App with AWS automation code pipeline.</p>"
     out+= "<p><h1>Congratulation</h1></p>"
     out+= "<p><h3>EC Utbildning, AWS Final Project </h3></p>"
+    out+= "<p> Patrik </p>"
     out+= "<p>MohammadHosein Labafbashi</p>"
     return out
 
